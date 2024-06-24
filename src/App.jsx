@@ -9,8 +9,18 @@ function App() {
       <Header />
       <Main />
       <Foter />
+
+
     </>
+    
   );
 }
+backTop = ()=>{
+  this.setState({
+    top:0,
+    behavior:"smooth",
+  });
+}
+<button onClick={this.backTop}>Bactop</button>
 
 export default App;
